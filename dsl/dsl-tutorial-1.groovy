@@ -1,5 +1,5 @@
 job ('DSL-Tutorial-1') {
         steps {
-                shell ('echo $BUILD_TAG')
+                shell ('echo $BUILD_TAG; echo $WORKSPACE')
         }
 }
